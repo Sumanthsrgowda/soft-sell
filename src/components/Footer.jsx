@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = ({ darkMode, setDarkMode }) => {
   return (
-    <footer className={`navbar ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
-      <div className="navbar-brand footer-center">© 2025 SoftSell. All rights reserved.</div>
+    <footer className="text-center py-3 bg-light border-top">
+      © 2025 SoftSell. All rights reserved.
     </footer>
   );
 };
